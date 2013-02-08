@@ -1,0 +1,8 @@
+#!/sbin/busybox sh
+
+rm -f /init
+mv /boot /init
+cd /
+
+exec /init
+
